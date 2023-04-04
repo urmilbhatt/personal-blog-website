@@ -133,7 +133,8 @@ header input[type="search"] {
   font-weight: bold;
 }
 
-* Blog post page specific styles */ .blog-post {
+/* Blog post page specific styles */
+.blog-post {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
@@ -186,6 +187,35 @@ header input[type="search"] {
 
 .blog-post a:hover {
   color: #005f8b;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.author-info img {
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
+  border-radius: 50%;
+}
+
+.author-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-details h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.published-date {
+  margin-top: 8px;
+  font-size: 16px;
 }
 
 /* Footer styles */
