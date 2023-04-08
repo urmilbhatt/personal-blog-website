@@ -18,6 +18,49 @@
   }
 }
 
+
+@media (max-width: 767px) {
+  /* Reduce the size of the main content and sidebar columns to take up full width */
+  .post-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Reduce the max-width of blog post to match the smaller screen size */
+  .blog-post {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  /* Reduce the font size of the blog post headings to make them more readable on smaller screens */
+  .blog-post h2 {
+    font-size: 24px;
+  }
+
+  /* Increase the font size of the author's name on smaller screens */
+  .author-details h3 {
+    font-size: 20px;
+  }
+
+  /* Center the author image on smaller screens */
+  .author-info img {
+    margin: 0 auto 16px;
+    display: block;
+  }
+
+  /* Make the archives and elsewhere sections full width on smaller screens */
+  .archives,
+  .elsewhere {
+    grid-column: 1 / -1;
+  }
+
+  /* Reduce the font size of the archives and elsewhere headings */
+  .archives h2,
+  .elsewhere h2 {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 767px) {
   footer {
     text-align: center;

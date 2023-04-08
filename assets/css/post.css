@@ -1,4 +1,10 @@
 /* Blog post page specific styles */
+.post-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* main section takes 2/3, sidebar takes 1/3 */
+  gap: 40px; /* add some gap between the main section and the sidebar */
+}
+
 .blog-post {
   max-width: 800px;
   margin: 0 auto;
@@ -89,4 +95,136 @@
 .published-date {
   margin-top: 8px;
   font-size: 16px;
+}
+
+/* Sidebar specific styles */
+/* .sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.author {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.author h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+.archives {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.archives h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.archives-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.archives-list li {
+  margin-bottom: 8px;
+}
+
+.elsewhere {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.elsewhere h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.elsewhere-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.elsewhere-links li {
+  margin-bottom: 8px;
+} */
+
+.sidebar {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto; /* updated */
+  grid-gap: 20px;
+}
+
+.author {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.author h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 16px;
+}
+
+.archives {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.archives h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.archives-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.archives-list li {
+  margin-bottom: 8px;
+}
+
+.elsewhere {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.elsewhere h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.elsewhere-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.elsewhere-links li {
+  margin-bottom: 8px;
 }
