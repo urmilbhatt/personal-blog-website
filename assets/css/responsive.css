@@ -1,0 +1,25 @@
+@media (max-width: 1023px) {
+  .container {
+    max-width: 768px;
+  }
+  .grid {
+    grid-template-columns: repeat(1, minmax(450px, 1fr));
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 480px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+}
